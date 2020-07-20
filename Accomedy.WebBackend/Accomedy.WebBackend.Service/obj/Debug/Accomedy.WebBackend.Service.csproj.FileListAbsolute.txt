@@ -1,0 +1,11 @@
+E:\Workspace\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.Service\obj\Debug\Accomedy.WebBackend.Service.csprojAssemblyReference.cache
+E:\Workspace\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.Service\obj\Debug\Accomedy.WebBackend.Service.csproj.CoreCompileInputs.cache
+E:\Workspace\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.Service\bin\Debug\Accomedy.WebBackend.Service.dll
+E:\Workspace\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.Service\bin\Debug\Accomedy.WebBackend.Service.pdb
+E:\Workspace\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.Service\bin\Debug\Accomedy.WebBackend.Share.dll
+E:\Workspace\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.Service\bin\Debug\Newtonsoft.Json.dll
+E:\Workspace\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.Service\bin\Debug\Accomedy.WebBackend.Share.pdb
+E:\Workspace\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.Service\bin\Debug\Newtonsoft.Json.xml
+E:\Workspace\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.Service\obj\Debug\Accomedy.WebBackend.Service.csproj.CopyComplete
+E:\Workspace\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.Service\obj\Debug\Accomedy.WebBackend.Service.dll
+E:\Workspace\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.Service\obj\Debug\Accomedy.WebBackend.Service.pdb

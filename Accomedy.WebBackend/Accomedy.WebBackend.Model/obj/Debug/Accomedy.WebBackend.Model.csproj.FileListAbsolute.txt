@@ -1,0 +1,6 @@
+E:\Workspace\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.Model\bin\Debug\Accomedy.WebBackend.Model.dll
+E:\Workspace\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.Model\bin\Debug\Accomedy.WebBackend.Model.pdb
+E:\Workspace\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.Model\obj\Debug\Accomedy.WebBackend.Model.csprojAssemblyReference.cache
+E:\Workspace\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.Model\obj\Debug\Accomedy.WebBackend.Model.csproj.CoreCompileInputs.cache
+E:\Workspace\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.Model\obj\Debug\Accomedy.WebBackend.Model.dll
+E:\Workspace\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.Model\obj\Debug\Accomedy.WebBackend.Model.pdb

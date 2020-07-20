@@ -1,0 +1,16 @@
+E:\Workspace\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.Data\bin\Debug\Accomedy.WebBackend.Data.dll.config
+E:\Workspace\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.Data\bin\Debug\Accomedy.WebBackend.Data.dll
+E:\Workspace\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.Data\bin\Debug\Accomedy.WebBackend.Data.pdb
+E:\Workspace\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.Data\bin\Debug\Accomedy.WebBackend.Share.dll
+E:\Workspace\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.Data\bin\Debug\EntityFramework.dll
+E:\Workspace\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.Data\bin\Debug\EntityFramework.SqlServer.dll
+E:\Workspace\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.Data\bin\Debug\Accomedy.WebBackend.Share.pdb
+E:\Workspace\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.Data\bin\Debug\EntityFramework.xml
+E:\Workspace\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.Data\bin\Debug\EntityFramework.SqlServer.xml
+E:\Workspace\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.Data\obj\Debug\Accomedy.WebBackend.Data.csprojAssemblyReference.cache
+E:\Workspace\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.Data\obj\Debug\Accomedy.WebBackend.Data.csproj.CoreCompileInputs.cache
+E:\Workspace\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.Data\obj\Debug\Accomedy.WebBackend.Data.csproj.CopyComplete
+E:\Workspace\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.Data\obj\Debug\Accomedy.WebBackend.Data.dll
+E:\Workspace\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.Data\obj\Debug\Accomedy.WebBackend.Data.pdb
+E:\Workspace\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.Data\bin\Debug\Accomedy.WebBackend.Model.dll
+E:\Workspace\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.Data\bin\Debug\Accomedy.WebBackend.Model.pdb
