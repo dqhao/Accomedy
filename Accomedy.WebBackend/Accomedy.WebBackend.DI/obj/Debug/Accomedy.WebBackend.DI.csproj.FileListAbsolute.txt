@@ -1,6 +1,98 @@
-E:\Workspace\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\Accomedy.WebBackend.DI.dll
-E:\Workspace\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\Accomedy.WebBackend.DI.pdb
-E:\Workspace\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.DI\obj\Debug\Accomedy.WebBackend.DI.csprojAssemblyReference.cache
-E:\Workspace\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.DI\obj\Debug\Accomedy.WebBackend.DI.csproj.CoreCompileInputs.cache
-E:\Workspace\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.DI\obj\Debug\Accomedy.WebBackend.DI.dll
-E:\Workspace\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.DI\obj\Debug\Accomedy.WebBackend.DI.pdb
+C:\Users\Dang Quoc Hao\source\Repos\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\Accomedy.WebBackend.DI.dll
+C:\Users\Dang Quoc Hao\source\Repos\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\Accomedy.WebBackend.DI.pdb
+C:\Users\Dang Quoc Hao\source\Repos\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\Accomedy.WebBackend.Business.dll
+C:\Users\Dang Quoc Hao\source\Repos\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\Accomedy.WebBackend.Data.dll
+C:\Users\Dang Quoc Hao\source\Repos\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Dang Quoc Hao\source\Repos\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Dang Quoc Hao\source\Repos\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\Ninject.dll
+C:\Users\Dang Quoc Hao\source\Repos\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\Ninject.Web.Common.dll
+C:\Users\Dang Quoc Hao\source\Repos\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\Ninject.Web.Common.WebHost.dll
+C:\Users\Dang Quoc Hao\source\Repos\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\Ninject.Web.WebApi.dll
+C:\Users\Dang Quoc Hao\source\Repos\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Dang Quoc Hao\source\Repos\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\System.Web.Http.dll
+C:\Users\Dang Quoc Hao\source\Repos\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\WebActivatorEx.dll
+C:\Users\Dang Quoc Hao\source\Repos\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\Accomedy.WebBackend.Model.dll
+C:\Users\Dang Quoc Hao\source\Repos\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\Accomedy.WebBackend.Share.dll
+C:\Users\Dang Quoc Hao\source\Repos\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\Accomedy.WebBackend.Entities.dll
+C:\Users\Dang Quoc Hao\source\Repos\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\EntityFramework.dll
+C:\Users\Dang Quoc Hao\source\Repos\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\Accomedy.WebBackend.Business.pdb
+C:\Users\Dang Quoc Hao\source\Repos\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\Accomedy.WebBackend.Data.pdb
+C:\Users\Dang Quoc Hao\source\Repos\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Dang Quoc Hao\source\Repos\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\Ninject.xml
+C:\Users\Dang Quoc Hao\source\Repos\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\Ninject.Web.Common.xml
+C:\Users\Dang Quoc Hao\source\Repos\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\Ninject.Web.Common.WebHost.xml
+C:\Users\Dang Quoc Hao\source\Repos\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\Ninject.Web.WebApi.xml
+C:\Users\Dang Quoc Hao\source\Repos\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Dang Quoc Hao\source\Repos\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\System.Web.Http.xml
+C:\Users\Dang Quoc Hao\source\Repos\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\Accomedy.WebBackend.Model.pdb
+C:\Users\Dang Quoc Hao\source\Repos\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\Accomedy.WebBackend.Share.pdb
+C:\Users\Dang Quoc Hao\source\Repos\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\Accomedy.WebBackend.Entities.pdb
+C:\Users\Dang Quoc Hao\source\Repos\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\Accomedy.WebBackend.Entities.dll.config
+C:\Users\Dang Quoc Hao\source\Repos\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\EntityFramework.xml
+C:\Users\Dang Quoc Hao\source\Repos\Accomedy.WebBackend\Accomedy.WebBackend.DI\obj\Debug\Accomedy.WebBackend.DI.csprojAssemblyReference.cache
+C:\Users\Dang Quoc Hao\source\Repos\Accomedy.WebBackend\Accomedy.WebBackend.DI\obj\Debug\Accomedy.WebBackend.DI.csproj.CoreCompileInputs.cache
+C:\Users\Dang Quoc Hao\source\Repos\Accomedy.WebBackend\Accomedy.WebBackend.DI\obj\Debug\Accomedy.WebBackend.DI.csproj.CopyComplete
+C:\Users\Dang Quoc Hao\source\Repos\Accomedy.WebBackend\Accomedy.WebBackend.DI\obj\Debug\Accomedy.WebBackend.DI.dll
+C:\Users\Dang Quoc Hao\source\Repos\Accomedy.WebBackend\Accomedy.WebBackend.DI\obj\Debug\Accomedy.WebBackend.DI.pdb
+C:\Users\Dang Quoc Hao\source\Repos\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Dang Quoc Hao\source\Repos\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\Unity.Abstractions.dll
+C:\Users\Dang Quoc Hao\source\Repos\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\Unity.Container.dll
+C:\Users\Dang Quoc Hao\source\Repos\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Dang Quoc Hao\source\Repos\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\Unity.Abstractions.pdb
+C:\Users\Dang Quoc Hao\source\Repos\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\Unity.Container.pdb
+C:\Users\Dang Quoc Hao\source\Repos\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\Dang Quoc Hao\source\Repos\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\System.Web.Http.WebHost.xml
+C:\Users\Dang Quoc Hao\source\Repos\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\Accomedy.WebBackend.Service.dll
+C:\Users\Dang Quoc Hao\source\Repos\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\ExpressMapper.dll
+C:\Users\Dang Quoc Hao\source\Repos\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\Accomedy.WebBackend.Service.pdb
+C:\Users\Dang Quoc Hao\source\Repos\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\ExpressMapper.pdb
+C:\Users\Dang Quoc Hao\source\Repos\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\ExpressMapper.xml
+E:\source\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\Accomedy.WebBackend.DI.dll
+E:\source\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\Accomedy.WebBackend.DI.pdb
+E:\source\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\Accomedy.WebBackend.Business.dll
+E:\source\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\Accomedy.WebBackend.Data.dll
+E:\source\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\Accomedy.WebBackend.Service.dll
+E:\source\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\Accomedy.WebBackend.Share.dll
+E:\source\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\Microsoft.Web.Infrastructure.dll
+E:\source\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\Newtonsoft.Json.dll
+E:\source\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\Ninject.dll
+E:\source\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\Ninject.Web.Common.dll
+E:\source\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\Ninject.Web.Common.WebHost.dll
+E:\source\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\Ninject.Web.WebApi.dll
+E:\source\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\System.Net.Http.Formatting.dll
+E:\source\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\source\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\System.Web.Http.dll
+E:\source\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\System.Web.Http.WebHost.dll
+E:\source\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\Unity.Abstractions.dll
+E:\source\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\Unity.Container.dll
+E:\source\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\WebActivatorEx.dll
+E:\source\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\Accomedy.WebBackend.Model.dll
+E:\source\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\Accomedy.WebBackend.Entities.dll
+E:\source\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\ExpressMapper.dll
+E:\source\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\EntityFramework.dll
+E:\source\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\Accomedy.WebBackend.Business.pdb
+E:\source\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\Accomedy.WebBackend.Data.pdb
+E:\source\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\Accomedy.WebBackend.Service.pdb
+E:\source\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\Accomedy.WebBackend.Share.pdb
+E:\source\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\Newtonsoft.Json.xml
+E:\source\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\Ninject.xml
+E:\source\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\Ninject.Web.Common.xml
+E:\source\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\Ninject.Web.Common.WebHost.xml
+E:\source\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\Ninject.Web.WebApi.xml
+E:\source\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\System.Net.Http.Formatting.xml
+E:\source\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\source\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\System.Web.Http.xml
+E:\source\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\System.Web.Http.WebHost.xml
+E:\source\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\Unity.Abstractions.pdb
+E:\source\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\Unity.Container.pdb
+E:\source\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\Accomedy.WebBackend.Model.pdb
+E:\source\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\Accomedy.WebBackend.Entities.pdb
+E:\source\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\Accomedy.WebBackend.Entities.dll.config
+E:\source\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\ExpressMapper.pdb
+E:\source\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\ExpressMapper.xml
+E:\source\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.DI\bin\Debug\EntityFramework.xml
+E:\source\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.DI\obj\Debug\Accomedy.WebBackend.DI.csprojAssemblyReference.cache
+E:\source\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.DI\obj\Debug\Accomedy.WebBackend.DI.csproj.CoreCompileInputs.cache
+E:\source\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.DI\obj\Debug\Accomedy.WebBackend.DI.csproj.CopyComplete
+E:\source\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.DI\obj\Debug\Accomedy.WebBackend.DI.dll
+E:\source\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.DI\obj\Debug\Accomedy.WebBackend.DI.pdb

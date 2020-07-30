@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Xml.Serialization;
 
 namespace Accomedy.WebBackend.Service.FlexibleSearch
 {
+    using System.Collections.Generic;
+    using System.Xml.Serialization;
+
     [XmlRoot(nameof(FieldConditions))]
     public class FieldConditions : List<FieldCondition>
     {

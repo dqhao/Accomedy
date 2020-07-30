@@ -1,6 +1,12 @@
-E:\Workspace\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.Model\bin\Debug\Accomedy.WebBackend.Model.dll
-E:\Workspace\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.Model\bin\Debug\Accomedy.WebBackend.Model.pdb
-E:\Workspace\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.Model\obj\Debug\Accomedy.WebBackend.Model.csprojAssemblyReference.cache
-E:\Workspace\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.Model\obj\Debug\Accomedy.WebBackend.Model.csproj.CoreCompileInputs.cache
-E:\Workspace\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.Model\obj\Debug\Accomedy.WebBackend.Model.dll
-E:\Workspace\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.Model\obj\Debug\Accomedy.WebBackend.Model.pdb
+C:\Users\Dang Quoc Hao\source\Repos\Accomedy.WebBackend\Accomedy.WebBackend.Model\bin\Debug\Accomedy.WebBackend.Model.dll
+C:\Users\Dang Quoc Hao\source\Repos\Accomedy.WebBackend\Accomedy.WebBackend.Model\bin\Debug\Accomedy.WebBackend.Model.pdb
+C:\Users\Dang Quoc Hao\source\Repos\Accomedy.WebBackend\Accomedy.WebBackend.Model\obj\Debug\Accomedy.WebBackend.Model.csproj.CoreCompileInputs.cache
+C:\Users\Dang Quoc Hao\source\Repos\Accomedy.WebBackend\Accomedy.WebBackend.Model\obj\Debug\Accomedy.WebBackend.Model.dll
+C:\Users\Dang Quoc Hao\source\Repos\Accomedy.WebBackend\Accomedy.WebBackend.Model\obj\Debug\Accomedy.WebBackend.Model.pdb
+C:\Users\Dang Quoc Hao\source\Repos\Accomedy.WebBackend\Accomedy.WebBackend.Model\obj\Debug\Accomedy.WebBackend.Model.csprojAssemblyReference.cache
+E:\source\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.Model\bin\Debug\Accomedy.WebBackend.Model.dll
+E:\source\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.Model\bin\Debug\Accomedy.WebBackend.Model.pdb
+E:\source\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.Model\obj\Debug\Accomedy.WebBackend.Model.csprojAssemblyReference.cache
+E:\source\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.Model\obj\Debug\Accomedy.WebBackend.Model.csproj.CoreCompileInputs.cache
+E:\source\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.Model\obj\Debug\Accomedy.WebBackend.Model.dll
+E:\source\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.Model\obj\Debug\Accomedy.WebBackend.Model.pdb

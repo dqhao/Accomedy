@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ACCOMEDYModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="POST">
+    <Key>
+      <PropertyRef Name="POST_ID" />
+    </Key>
+    <Property Name="POST_ID" Type="Guid" Nullable="false" />
+    <Property Name="TITLE" Type="String" MaxLength="128" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="DETAILS" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="PHOTOS" Type="String" MaxLength="128" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="PRICE" Type="Decimal" Precision="10" Scale="2" Nullable="false" />
+    <Property Name="ADDRESS" Type="String" MaxLength="128" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="STATUS" Type="String" MaxLength="128" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="USERS" Relationship="Self.USER_POSTS" FromRole="POSTS" ToRole="USERS" />
+  </EntityType>
+  <EntityType Name="ROLE">
+    <Key>
+      <PropertyRef Name="ROLE_CODE" />
+    </Key>
+    <Property Name="ROLE_CODE" Type="String" MaxLength="128" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ROLE_NAME" Type="String" MaxLength="128" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="USERS" Relationship="Self.USER_ROLES" FromRole="ROLES" ToRole="USERS" />
+  </EntityType>
+  <EntityType Name="USER">
+    <Key>
+      <PropertyRef Name="USER_ID" />
+    </Key>
+    <Property Name="USER_ID" Type="Guid" Nullable="false" />
+    <Property Name="USER_NAME" Type="String" MaxLength="128" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="FIRST_NAME" Type="String" MaxLength="128" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="LAST_NAME" Type="String" MaxLength="128" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="EMAIL" Type="String" MaxLength="128" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ADDRESS" Type="String" MaxLength="128" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="PHONE" Type="String" MaxLength="128" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="POSTS" Relationship="Self.USER_POSTS" FromRole="USERS" ToRole="POSTS" />
+    <NavigationProperty Name="ROLES" Relationship="Self.USER_ROLES" FromRole="USERS" ToRole="ROLES" />
+  </EntityType>
+  <Association Name="USER_POSTS">
+    <End Role="POSTS" Type="Self.POST" Multiplicity="*" />
+    <End Role="USERS" Type="Self.USER" Multiplicity="*" />
+  </Association>
+  <Association Name="USER_ROLES">
+    <End Role="ROLES" Type="Self.ROLE" Multiplicity="*" />
+    <End Role="USERS" Type="Self.USER" Multiplicity="*" />
+  </Association>
+  <EntityContainer Name="ACCOMEDYEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="POSTS" EntityType="Self.POST" />
+    <EntitySet Name="ROLES" EntityType="Self.ROLE" />
+    <EntitySet Name="USERS" EntityType="Self.USER" />
+    <AssociationSet Name="USER_POSTS" Association="Self.USER_POSTS">
+      <End Role="POSTS" EntitySet="POSTS" />
+      <End Role="USERS" EntitySet="USERS" />
+    </AssociationSet>
+    <AssociationSet Name="USER_ROLES" Association="Self.USER_ROLES">
+      <End Role="ROLES" EntitySet="ROLES" />
+      <End Role="USERS" EntitySet="USERS" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

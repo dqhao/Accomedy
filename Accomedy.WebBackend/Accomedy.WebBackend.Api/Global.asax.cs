@@ -6,6 +6,7 @@ using System.Web.Http;
 using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
+using Accomedy.WebBackend.DI.App_Start;
 
 namespace Accomedy.WebBackend.Api
 {
@@ -18,6 +19,7 @@ namespace Accomedy.WebBackend.Api
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+
         }
     }
 }

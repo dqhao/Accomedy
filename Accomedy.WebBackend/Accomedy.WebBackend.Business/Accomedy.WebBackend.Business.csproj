@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4A0D882A-6BEA-4C63-8DE7-D33ED1A69D0F}</ProjectGuid>
+    <ProjectGuid>{9CAFA2A9-3287-410B-826F-2F4A1F407DC9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Accomedy.WebBackend.Business</RootNamespace>
@@ -31,6 +31,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="ExpressMapper, Version=1.9.1.0, Culture=neutral, PublicKeyToken=ac363faa09311ba0, processorArchitecture=MSIL">
+      <HintPath>..\packages\Expressmapper.1.9.1\lib\net46\ExpressMapper.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -41,25 +44,40 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaseMappingManager.cs" />
+    <Compile Include="IGenericCrudManager.cs" />
+    <Compile Include="IPostManager.cs" />
+    <Compile Include="IMappingManager.cs" />
+    <Compile Include="Mappers\IObjectMapper.cs" />
+    <Compile Include="Mappers\PostMapper.cs" />
+    <Compile Include="PostManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Accomedy.WebBackend.Data\Accomedy.WebBackend.Data.csproj">
-      <Project>{8B28A8BA-B141-40C5-AC6D-2BAD9D1713A2}</Project>
+      <Project>{4BA2E452-AF49-4B0F-B60A-484857DDD7C5}</Project>
       <Name>Accomedy.WebBackend.Data</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Accomedy.WebBackend.Entities\Accomedy.WebBackend.Entities.csproj">
+      <Project>{7EED80BD-0242-4EEE-8939-B39407418530}</Project>
+      <Name>Accomedy.WebBackend.Entities</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Accomedy.WebBackend.Model\Accomedy.WebBackend.Model.csproj">
-      <Project>{1D5B2840-A814-4DDD-9D59-AEE7650AF9F5}</Project>
+      <Project>{2556C798-994B-4852-9897-514EB63EBAB0}</Project>
       <Name>Accomedy.WebBackend.Model</Name>
     </ProjectReference>
     <ProjectReference Include="..\Accomedy.WebBackend.Service\Accomedy.WebBackend.Service.csproj">
-      <Project>{D3488171-7663-4C87-9DA8-ABCEF259E856}</Project>
+      <Project>{0109D998-4672-464C-960E-EA4516F8FDE9}</Project>
       <Name>Accomedy.WebBackend.Service</Name>
     </ProjectReference>
     <ProjectReference Include="..\Accomedy.WebBackend.Share\Accomedy.WebBackend.Share.csproj">
-      <Project>{87EF7E46-2754-43DD-B0ED-69071D52E158}</Project>
+      <Project>{90763151-095A-45B9-81B0-6F00370DCD1D}</Project>
       <Name>Accomedy.WebBackend.Share</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

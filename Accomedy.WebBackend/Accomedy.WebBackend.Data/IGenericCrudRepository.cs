@@ -1,27 +1,31 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
-using Accomedy.WebBackend.Model;
+using Accomedy.WebBackend.Share;
 
 namespace Accomedy.WebBackend.Data
 {
-    public interface IGenericCrudRepository<TModel, TKey>
-        where TModel: class
+    public interface IGenericCrudRepository<TEntity, TKey>
+        where TEntity : class
+        where TKey : class
     {
-        bool IsValid(TKey id);
+        bool IsExisting(TKey key);
 
-        bool IsExist(TKey id);
+        TEntity Get(TKey key);
 
-        TModel Insert(TModel newModel);
+        TPagination<TEntity> Find(string xmlSearchFields, PropertyInfo sortingField, SortingEnum sortingDesc, int pageNumber, int pageCount);
 
-        TModel GetById(TKey id);
+        TEntity Insert(TEntity entNew);
 
-        TModel Find(SearchModel criteria);
+        TEntity Update(TEntity entChanged);
 
-        bool Update(TKey id, TModel newModel);
+        bool Delete(TKey key);
 
-        bool Delete(TKey id);
+        bool DeleteMany(TKey[] keys);
+
+        Dictionary<string, string> Validate(TEntity animal, string type);
     }
 }

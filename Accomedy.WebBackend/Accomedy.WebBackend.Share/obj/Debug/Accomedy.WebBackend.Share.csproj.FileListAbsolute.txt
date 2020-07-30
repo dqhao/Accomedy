@@ -1,6 +1,12 @@
-E:\Workspace\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.Share\bin\Debug\Accomedy.WebBackend.Share.dll
-E:\Workspace\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.Share\bin\Debug\Accomedy.WebBackend.Share.pdb
-E:\Workspace\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.Share\obj\Debug\Accomedy.WebBackend.Share.csprojAssemblyReference.cache
-E:\Workspace\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.Share\obj\Debug\Accomedy.WebBackend.Share.csproj.CoreCompileInputs.cache
-E:\Workspace\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.Share\obj\Debug\Accomedy.WebBackend.Share.dll
-E:\Workspace\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.Share\obj\Debug\Accomedy.WebBackend.Share.pdb
+C:\Users\Dang Quoc Hao\source\Repos\Accomedy.WebBackend\Accomedy.WebBackend.Share\bin\Debug\Accomedy.WebBackend.Share.dll
+C:\Users\Dang Quoc Hao\source\Repos\Accomedy.WebBackend\Accomedy.WebBackend.Share\bin\Debug\Accomedy.WebBackend.Share.pdb
+C:\Users\Dang Quoc Hao\source\Repos\Accomedy.WebBackend\Accomedy.WebBackend.Share\obj\Debug\Accomedy.WebBackend.Share.csproj.CoreCompileInputs.cache
+C:\Users\Dang Quoc Hao\source\Repos\Accomedy.WebBackend\Accomedy.WebBackend.Share\obj\Debug\Accomedy.WebBackend.Share.dll
+C:\Users\Dang Quoc Hao\source\Repos\Accomedy.WebBackend\Accomedy.WebBackend.Share\obj\Debug\Accomedy.WebBackend.Share.pdb
+C:\Users\Dang Quoc Hao\source\Repos\Accomedy.WebBackend\Accomedy.WebBackend.Share\obj\Debug\Accomedy.WebBackend.Share.csprojAssemblyReference.cache
+E:\source\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.Share\bin\Debug\Accomedy.WebBackend.Share.dll
+E:\source\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.Share\bin\Debug\Accomedy.WebBackend.Share.pdb
+E:\source\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.Share\obj\Debug\Accomedy.WebBackend.Share.csproj.CoreCompileInputs.cache
+E:\source\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.Share\obj\Debug\Accomedy.WebBackend.Share.dll
+E:\source\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.Share\obj\Debug\Accomedy.WebBackend.Share.pdb
+E:\source\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.Share\obj\Debug\Accomedy.WebBackend.Share.csprojAssemblyReference.cache

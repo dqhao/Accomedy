@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ACCOMEDYModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="POSTS">
+    <Key>
+      <PropertyRef Name="POST_ID" />
+    </Key>
+    <Property Name="POST_ID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="TITLE" Type="varchar" MaxLength="128" Nullable="false" />
+    <Property Name="DETAILS" Type="varchar(max)" Nullable="false" />
+    <Property Name="PHOTOS" Type="varchar" MaxLength="128" Nullable="false" />
+    <Property Name="PRICE" Type="decimal" Precision="10" Scale="2" Nullable="false" />
+    <Property Name="ADDRESS" Type="varchar" MaxLength="128" Nullable="false" />
+    <Property Name="STATUS" Type="varchar" MaxLength="128" />
+  </EntityType>
+  <EntityType Name="ROLES">
+    <Key>
+      <PropertyRef Name="ROLE_CODE" />
+    </Key>
+    <Property Name="ROLE_CODE" Type="varchar" MaxLength="128" Nullable="false" />
+    <Property Name="ROLE_NAME" Type="varchar" MaxLength="128" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'ACCOMEDY.dbo.USER_POSTS' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="USER_POSTS">
+    <Key>
+      <PropertyRef Name="USER_ID" />
+      <PropertyRef Name="POST_ID" />
+    </Key>
+    <Property Name="USER_ID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="POST_ID" Type="uniqueidentifier" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'ACCOMEDY.dbo.USER_ROLES' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="USER_ROLES">
+    <Key>
+      <PropertyRef Name="USER_ID" />
+      <PropertyRef Name="ROLE_CODE" />
+    </Key>
+    <Property Name="USER_ID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="ROLE_CODE" Type="varchar" MaxLength="128" Nullable="false" />
+  </EntityType>
+  <EntityType Name="USERS">
+    <Key>
+      <PropertyRef Name="USER_ID" />
+    </Key>
+    <Property Name="USER_ID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="USER_NAME" Type="varchar" MaxLength="128" Nullable="false" />
+    <Property Name="FIRST_NAME" Type="varchar" MaxLength="128" Nullable="false" />
+    <Property Name="LAST_NAME" Type="varchar" MaxLength="128" Nullable="false" />
+    <Property Name="EMAIL" Type="varchar" MaxLength="128" Nullable="false" />
+    <Property Name="ADDRESS" Type="varchar" MaxLength="128" Nullable="false" />
+    <Property Name="PHONE" Type="varchar" MaxLength="128" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__USER_POST__POST___2F10007B">
+    <End Role="POSTS" Type="Self.POSTS" Multiplicity="1" />
+    <End Role="USER_POSTS" Type="Self.USER_POSTS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="POSTS">
+        <PropertyRef Name="POST_ID" />
+      </Principal>
+      <Dependent Role="USER_POSTS">
+        <PropertyRef Name="POST_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__USER_POST__USER___300424B4">
+    <End Role="USERS" Type="Self.USERS" Multiplicity="1" />
+    <End Role="USER_POSTS" Type="Self.USER_POSTS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="USERS">
+        <PropertyRef Name="USER_ID" />
+      </Principal>
+      <Dependent Role="USER_POSTS">
+        <PropertyRef Name="USER_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__USER_ROLE__ROLE___276EDEB3">
+    <End Role="ROLES" Type="Self.ROLES" Multiplicity="1" />
+    <End Role="USER_ROLES" Type="Self.USER_ROLES" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ROLES">
+        <PropertyRef Name="ROLE_CODE" />
+      </Principal>
+      <Dependent Role="USER_ROLES">
+        <PropertyRef Name="ROLE_CODE" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__USER_ROLE__USER___286302EC">
+    <End Role="USERS" Type="Self.USERS" Multiplicity="1" />
+    <End Role="USER_ROLES" Type="Self.USER_ROLES" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="USERS">
+        <PropertyRef Name="USER_ID" />
+      </Principal>
+      <Dependent Role="USER_ROLES">
+        <PropertyRef Name="USER_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ACCOMEDYModelStoreContainer">
+    <EntitySet Name="POSTS" EntityType="Self.POSTS" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ROLES" EntityType="Self.ROLES" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="USERS" EntityType="Self.USERS" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="USER_POSTS" EntityType="Self.USER_POSTS" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [USER_POSTS].[USER_ID] AS [USER_ID], 
+    [USER_POSTS].[POST_ID] AS [POST_ID]
+    FROM [dbo].[USER_POSTS] AS [USER_POSTS]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="USER_ROLES" EntityType="Self.USER_ROLES" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [USER_ROLES].[USER_ID] AS [USER_ID], 
+    [USER_ROLES].[ROLE_CODE] AS [ROLE_CODE]
+    FROM [dbo].[USER_ROLES] AS [USER_ROLES]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="FK__USER_POST__POST___2F10007B" Association="Self.FK__USER_POST__POST___2F10007B">
+      <End Role="POSTS" EntitySet="POSTS" />
+      <End Role="USER_POSTS" EntitySet="USER_POSTS" />
+    </AssociationSet>
+    <AssociationSet Name="FK__USER_POST__USER___300424B4" Association="Self.FK__USER_POST__USER___300424B4">
+      <End Role="USERS" EntitySet="USERS" />
+      <End Role="USER_POSTS" EntitySet="USER_POSTS" />
+    </AssociationSet>
+    <AssociationSet Name="FK__USER_ROLE__ROLE___276EDEB3" Association="Self.FK__USER_ROLE__ROLE___276EDEB3">
+      <End Role="ROLES" EntitySet="ROLES" />
+      <End Role="USER_ROLES" EntitySet="USER_ROLES" />
+    </AssociationSet>
+    <AssociationSet Name="FK__USER_ROLE__USER___286302EC" Association="Self.FK__USER_ROLE__USER___286302EC">
+      <End Role="USERS" EntitySet="USERS" />
+      <End Role="USER_ROLES" EntitySet="USER_ROLES" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
