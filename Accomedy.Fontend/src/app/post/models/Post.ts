@@ -1,5 +1,5 @@
 export class Post{
-    postId: number;
+    postId: string;
     title: string;
     details: string;
     photos: string;

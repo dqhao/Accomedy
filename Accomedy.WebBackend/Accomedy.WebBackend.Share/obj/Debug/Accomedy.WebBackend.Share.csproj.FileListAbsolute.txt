@@ -9,4 +9,3 @@ E:\source\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.Share\bin\Debug\Accom
 E:\source\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.Share\obj\Debug\Accomedy.WebBackend.Share.csproj.CoreCompileInputs.cache
 E:\source\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.Share\obj\Debug\Accomedy.WebBackend.Share.dll
 E:\source\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.Share\obj\Debug\Accomedy.WebBackend.Share.pdb
-E:\source\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.Share\obj\Debug\Accomedy.WebBackend.Share.csprojAssemblyReference.cache

@@ -4,12 +4,14 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using System.Web.Http.Cors;
 using Accomedy.WebBackend.Business;
 using Accomedy.WebBackend.Entities;
 using Accomedy.WebBackend.Model;
 
 namespace Accomedy.WebBackend.Api.Controllers
 {
+    [EnableCors(origins: "*", headers: "*", methods: "*")]
     [RoutePrefix("api/posts")]
     public class PostController : BaseApi
     {
@@ -29,12 +31,12 @@ namespace Accomedy.WebBackend.Api.Controllers
         }
 
         [HttpGet]
-        [Route("get-all")]
-        public IHttpActionResult GetPosts()
+        [Route("get-detail")]
+        public IHttpActionResult GetPostByID(string postID)
         {
             try
             {
-                var result = "abc";
+                var result = _postMgr.GetDetailById(postID);
                 if (result == null)
                 {
                     return NotFound();

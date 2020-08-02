@@ -46,7 +46,10 @@ namespace Accomedy.WebBackend.Business
 
         public PostModel GetDetailById(string id)
         {
-            throw new NotImplementedException();
+            var ent = _postRepo.Get(id);
+            var results = ent.Map<POST, PostModel>();
+
+            return results;
         }
 
         public IList<string> InspectFlexibleSearch(SearchModel criteria)

@@ -58,7 +58,11 @@ namespace Accomedy.WebBackend.Data
 
         public POST Get(string key)
         {
-            throw new NotImplementedException();
+
+            string sql = string.Format(@"EXEC [dbo].[wsp_get_post_detail] @POST_ID = '{0}'", key);
+
+            var data = _connDb.GetData(sql);
+            return _convertDT2List.ConvertDataTable<POST>(data.Tables[0]).First();
         }
 
         public POST Insert(POST entNew)

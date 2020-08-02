@@ -1,28 +1,34 @@
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
-import {Post} from '../models/Post'
+import { Post } from '../models/Post';
+import { SearchResultModel } from '../models/SearchResultModel';
+import { HttpHeaders } from '@angular/common/http';
+import { NgAnalyzeModulesHost } from '@angular/compiler';
 
 
 @Injectable()
 export class PostService {
-    constructor(private http: HttpClient) { }
 
-    getposts() {
-        // return this.http.get
-         return this.http.get("http://localhost:8080/api/post/get-posts");
-        // this.http.post<Post>('https://localhost:44382/api/posts/search-result', { title: 'Angular POST Request Example' }).subscribe(data => {
-        //     this.postId = data.id;
-        // })
-    }
+  httpOptions = {
+    headers: new HttpHeaders({
+      'Content-Type': 'application/json'
+    })
+  };
 
-    onSearchSubmit(post:Post){
-        return this.http.get("http://localhost:8080/api/post/search-results?keywords=" + post.keywords + "&address=" + post.address + "&prices=" + post.price.id);
-    }
+  constructor(private http: HttpClient) { }
 
-    postDetails(id_post: number){
-        return this.http.get("http://localhost:8080/api/post/get-details?id=" + id_post);
-    }
+  getposts(searchFilter: any) {
+    return this.http.post<SearchResultModel>('https://localhost:44382/api/posts/search-result', searchFilter, this.httpOptions);
+  }
+
+  onSearchSubmit(searchFilter: any) {
+    return this.http.post<SearchResultModel>('https://localhost:44382/api/posts/search-result', searchFilter, this.httpOptions);
+  }
+
+  postDetails(id_post: number) {
+    return this.http.get("https://localhost:44382/api/posts/get-detail?postID=" + id_post);
+  }
 
 
 

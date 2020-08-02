@@ -9,7 +9,7 @@ namespace Accomedy.WebBackend.Api
             // Web API configuration and services
             //var container = new UnityContainer();
             //config.DependencyResolver = new UnityResolver(container);
-
+            config.EnableCors();
             // Web API routes
             config.MapHttpAttributeRoutes();
 

@@ -238,3 +238,6 @@ E:\source\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.Api\obj\Debug\Accomed
 E:\source\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.Api\obj\Debug\Accomedy.WebBackend.Api.csproj.CopyComplete
 E:\source\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.Api\obj\Debug\Accomedy.WebBackend.Api.dll
 E:\source\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.Api\obj\Debug\Accomedy.WebBackend.Api.pdb
+E:\source\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.Api\bin\System.Web.Cors.dll
+E:\source\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.Api\bin\System.Web.Http.Cors.dll
+E:\source\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.Api\bin\System.Web.Http.Cors.xml

@@ -35,6 +35,7 @@ BEGIN
 	)
 	SELECT @sql_condition =  @sql_condition + ' AND '+ 
 	CASE 
+		WHEN [PARAM_NAME] ='(TITLE)' THEN 'posts.TITLE LIKE ''%' + LTRIM(rtrim([PARAM_VALUE])) + '%'''
 		WHEN [PARAM_NAME] ='(ADDRESS)' THEN 'posts.ADDRESS LIKE ''%' + LTRIM(rtrim([PARAM_VALUE])) + '%'''
 		WHEN [PARAM_NAME] = '(PRICE)' THEN 'posts.PRICE <= ' + [PARAM_VALUE]
 	END
