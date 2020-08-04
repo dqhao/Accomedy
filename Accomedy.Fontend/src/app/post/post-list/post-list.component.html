@@ -66,11 +66,11 @@
         <div class="row">
             <div class="col-md-4" *ngFor="let post of lstposts.Items">
                 <div class="property-wrap ftco-animate fadeInUp ftco-animated">
-                    <a [routerLink]="['/postDetail', post.postId]" class="img" style="background-image: url({{post.photos}});">
+                    <a (click)="onDetailSubmit(post.post_id)" href="javascript:void(0)" class="img" style="background-image: url({{post.photos}});">
                         <p class="price"><span class="orig-price">${{post.price}}</span></p>
                     </a>
                     <div class="text post-element">
-                        <h3 class="post-element-h3"><a [routerLink]="['/postDetail', post.postId]">{{post.title}}</a></h3>
+                        <h3 class="post-element-h3"><a (click)="onDetailSubmit(post.post_id)" href="javascript:void(0)">{{post.title}}</a></h3>
                         <span class="location post-element-address">{{post.address}}</span>
 
                         <div class="list-team d-flex align-items-center mt-2 pt-2 border-top">

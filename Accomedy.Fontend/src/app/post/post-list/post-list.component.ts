@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { PostService } from '../services/post.service';
 import { Post } from '../models/Post';
 import { SearchResultModel } from '../models/SearchResultModel';
-import { Router, ActivatedRoute } from '@angular/router';
+import { Router} from '@angular/router';
 
 
 @Component({
@@ -67,6 +67,10 @@ export class PostListComponent implements OnInit {
           this.lstposts = data;
         }
       );
+  }
+
+  onDetailSubmit(post_id: any){
+    this.router.navigate([`/post-detail/${post_id}`]);
   }
 
   convertFilter(obj: any) {

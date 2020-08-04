@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
+import { Router, ActivatedRoute} from '@angular/router';
 import { PostService } from '../services/post.service';
+import { Post } from '../models/Post';
 
 
 @Component({
@@ -10,19 +11,26 @@ import { PostService } from '../services/post.service';
 })
 export class PostDetailComponent implements OnInit {
 
-  constructor(private _postService: PostService, private router: Router) { }
+  post_id: string;
+  post: any;
 
-  ngOnInit(): void {
-    
+  constructor(
+    private _postService: PostService,
+    private route: ActivatedRoute,
+    private router: Router
+  )
+  {
+    this.post_id = this.route.snapshot.paramMap.get('post_id');
   }
 
-  // postDetails(id_post: number){
-  //   this._postService.postDetails(id_post)
-  //   .subscribe
-  //   (
-  //     data =>
-  //     {
-  //       this.lstposts = data;
-  //     }
-  //   );
+  ngOnInit() {
+    this._postService.postDetails(this.post_id)
+    .subscribe
+      (
+        data => {
+          this.post = data;
+        }
+      );
+  }
+
 }

@@ -26,8 +26,8 @@ export class PostService {
     return this.http.post<SearchResultModel>('https://localhost:44382/api/posts/search-result', searchFilter, this.httpOptions);
   }
 
-  postDetails(id_post: number) {
-    return this.http.get("https://localhost:44382/api/posts/get-detail?postID=" + id_post);
+  postDetails(id: string) {
+    return this.http.get("https://localhost:44382/api/posts/get-detail?postID=" + id);
   }
 
 
