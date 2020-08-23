@@ -40,7 +40,7 @@ export class PostListComponent implements OnInit {
       "sortedBy": "TITLE",
       "isDescSorting": false,
       "pageNumber": 1,
-      "pageCount": 10
+      "pageCount": 9
     }
     this._postService.getposts(this.searchFilter)
       .subscribe
@@ -58,7 +58,7 @@ export class PostListComponent implements OnInit {
       "sortedBy": "TITLE",
       "isDescSorting": false,
       "pageNumber": 1,
-      "pageCount": 10
+      "pageCount": 9
     }
     this._postService.getposts(this.searchFilter)
       .subscribe

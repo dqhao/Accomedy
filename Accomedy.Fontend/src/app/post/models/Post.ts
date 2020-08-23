@@ -6,4 +6,5 @@ export class Post{
     price: any;
     address: string;
     keywords: string;
+    page_number: number;
 }

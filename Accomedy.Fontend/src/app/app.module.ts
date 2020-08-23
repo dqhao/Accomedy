@@ -11,6 +11,7 @@ import { TopBarComponent } from './top-bar/top-bar.component';
 import { PostListComponent } from './post/post-list/post-list.component';
 import { FooterComponent } from './footer/footer.component';
 import { PostDetailComponent } from './post/post-detail/post-detail.component';
+import { SignUpComponent } from './user/sign-up/sign-up.component';
 
 
 @NgModule({
@@ -20,6 +21,7 @@ import { PostDetailComponent } from './post/post-detail/post-detail.component';
     TopBarComponent,
     FooterComponent,
     PostDetailComponent,
+    SignUpComponent,
     
   ],
   imports: [
