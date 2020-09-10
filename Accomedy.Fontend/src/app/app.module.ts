@@ -4,6 +4,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { NgSelectModule } from '@ng-select/ng-select';
 import {PostService} from './post/services/post.service';
 import { FormsModule } from '@angular/forms';
+import {UserService} from './user/services/user.service';
+
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -11,6 +13,7 @@ import { TopBarComponent } from './top-bar/top-bar.component';
 import { PostListComponent } from './post/post-list/post-list.component';
 import { FooterComponent } from './footer/footer.component';
 import { PostDetailComponent } from './post/post-detail/post-detail.component';
+import { RegisterComponent } from './user/register/register.component';
 
 
 @NgModule({
@@ -20,6 +23,8 @@ import { PostDetailComponent } from './post/post-detail/post-detail.component';
     TopBarComponent,
     FooterComponent,
     PostDetailComponent,
+    RegisterComponent
+   
     
   ],
   imports: [
@@ -29,7 +34,7 @@ import { PostDetailComponent } from './post/post-detail/post-detail.component';
     NgSelectModule,
     FormsModule
   ],
-  providers: [PostService],
+  providers: [PostService, UserService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
