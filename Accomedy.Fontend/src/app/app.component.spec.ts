@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'htv8-fontend'`, () => {
+  it(`should have as title 'Accomedy'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('htv8-fontend');
+    expect(app.title).toEqual('Accomedy');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('htv8-fontend app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('Accomedy app is running!');
   });
 });

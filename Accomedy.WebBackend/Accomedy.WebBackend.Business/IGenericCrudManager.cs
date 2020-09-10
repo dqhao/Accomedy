@@ -23,7 +23,7 @@ namespace Accomedy.WebBackend.Business
 
         TPagination<TModel> Search(SearchModel criteria);
 
-        TModel Create(TModel model);
+        bool Create(TModel model);
 
         TModel Edit(TModel changedModel);
 

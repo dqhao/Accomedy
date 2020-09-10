@@ -16,6 +16,7 @@ import { FooterComponent } from './footer/footer.component';
 import { PostDetailComponent } from './post/post-detail/post-detail.component';
 import { RegisterComponent } from './user/register/register.component';
 import { LoginComponent } from './user/login/login.component';
+import { CreatePostComponent } from './post/create-post/create-post.component';
 
 
 @NgModule({
@@ -27,6 +28,7 @@ import { LoginComponent } from './user/login/login.component';
     PostDetailComponent,
     RegisterComponent,
     LoginComponent,
+    CreatePostComponent,
     
   ],
   imports: [

@@ -18,7 +18,7 @@ namespace Accomedy.WebBackend.Data
 
         TPagination<TEntity> Find(string xmlSearchFields, PropertyInfo sortingField, SortingEnum sortingDesc, int pageNumber, int pageCount);
 
-        TEntity Insert(TEntity entNew);
+        bool Insert(TEntity entNew);
 
         TEntity Update(TEntity entChanged);
 
