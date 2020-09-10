@@ -20,6 +20,10 @@ export class UserService {
 register(user: Object):Observable<Object>{
   return this.http.post('https://localhost:44382/api/posts/search-result', user, this.httpOptions);
  }
+checkLogin(username,password){
+  var data = "username="+username+"&password="+password;
+  return this.http.post('https://localhost:44382/api/posts/search-result', data, this.httpOptions);
+ }
 
  
 }

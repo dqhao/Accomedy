@@ -1,3 +1,4 @@
+import { LoginComponent } from './user/login/login.component';
 import { RegisterComponent } from './user/register/register.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
@@ -11,7 +12,7 @@ const routes: Routes = [
   {path: 'post-detail/:post_id', component: PostDetailComponent},
   {path:'post-list',component : PostListComponent},
   {path: 'register', component: RegisterComponent},
-
+  {path: 'login',component: LoginComponent}
 ];
 
 @NgModule({
