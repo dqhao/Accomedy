@@ -86,7 +86,7 @@
 
         </div>
         <div class="row mt-5">
-            <div class="col text-center">
+            <!-- <div class="col text-left">
                 <div class="block-27">
                     <ul>
                         <li><a href="#">&lt;</a></li>
@@ -95,6 +95,16 @@
                         <li><a href="#">3</a></li>
                         <li><a href="#">4</a></li>
                         <li><a href="#">5</a></li>
+                        <li><a href="#">&gt;</a></li>
+                    </ul>
+                </div>
+            </div> -->
+
+            <div class="col text-center">
+                <div class="block-27">
+                    <ul>
+                        <li><a href="#">&lt;</a></li>
+                        <li *ngFor="let index of numOfPage" id={{index}}  (click) = "click($event)" [ngClass]="{'active' : index == 1}"><a (click)="onSearchPaging(post, index)" href="javascript:void(0)">{{index}}</a></li>
                         <li><a href="#">&gt;</a></li>
                     </ul>
                 </div>

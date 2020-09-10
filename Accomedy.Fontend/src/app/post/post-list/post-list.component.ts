@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { PostService } from '../services/post.service';
 import { Post } from '../models/Post';
 import { SearchResultModel } from '../models/SearchResultModel';
-import { Router} from '@angular/router';
+import { Router } from '@angular/router';
 
 
 @Component({
@@ -29,6 +29,7 @@ export class PostListComponent implements OnInit {
   }
 
   lstposts: any = new SearchResultModel();
+  numOfPage: any;
 
   // = [{"postId":1,"title":"Phong tro gia re 1","details":"phong rong 12x12, o duoc 4 nguoi, gio giac tu do","photos":"abc","price":20.5,"address":"quang trung, go vap","ownerId":2,"guestId":0},{"postId":2,"title":"Phong tro gia re 2","details":"phong rong 15x13, o duoc 3 nguoi, 10h dong cua","photos":"abc","price":12.01,"address":"cau ong lanh, quan 4","ownerId":3,"guestId":1}];
 
@@ -40,7 +41,34 @@ export class PostListComponent implements OnInit {
       "sortedBy": "TITLE",
       "isDescSorting": false,
       "pageNumber": 1,
-      "pageCount": 10
+      "pageCount": 9
+    }
+    this._postService.getposts(this.searchFilter)
+      .subscribe
+      (
+        data => {
+          this.lstposts = data;
+          this.numOfPage = Array.from({ length: (Math.round(data.Total / 9) < (data.Total / 9) ? Math.round(data.Total / 9) + 1 : Math.round(data.Total / 9)) }, (v, k) => k + 1);
+        }
+      );
+  }
+
+  click(event) {
+    var classList = event.path[2].children;
+    for (var i = 0; i < classList.length; i++) {
+      classList[i].classList.remove('active');
+    }
+    event.currentTarget.classList.add('active'); // To ADD
+  }
+
+  onSearchPaging(post: any, index: any) {
+    let filter = this.convertFilter(post);
+    this.searchFilter = {
+      "Criterias": filter,
+      "sortedBy": "TITLE",
+      "isDescSorting": false,
+      "pageNumber": index,
+      "pageCount": 9
     }
     this._postService.getposts(this.searchFilter)
       .subscribe
@@ -58,18 +86,19 @@ export class PostListComponent implements OnInit {
       "sortedBy": "TITLE",
       "isDescSorting": false,
       "pageNumber": 1,
-      "pageCount": 10
+      "pageCount": 9
     }
     this._postService.getposts(this.searchFilter)
       .subscribe
       (
         data => {
           this.lstposts = data;
+          this.numOfPage = Array.from({ length: (Math.round(data.Total / 9) < (data.Total / 9) ? Math.round(data.Total / 9) + 1 : Math.round(data.Total / 9)) }, (v, k) => k + 1);
         }
       );
   }
 
-  onDetailSubmit(post_id: any){
+  onDetailSubmit(post_id: any) {
     this.router.navigate([`/post-detail/${post_id}`]);
   }
 
