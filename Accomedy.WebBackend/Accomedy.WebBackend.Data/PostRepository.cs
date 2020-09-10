@@ -51,7 +51,7 @@ namespace Accomedy.WebBackend.Data
             var data = _connDb.GetData(sql);
 
             result.Items = _convertDT2List.ConvertDataTable<POST>(data.Tables[0]);
-            result.Total = (int) data.Tables[1].Rows[0].ItemArray[0];
+            result.Total = (int)data.Tables[1].Rows[0].ItemArray[0];
 
             return result;
         }
@@ -65,9 +65,24 @@ namespace Accomedy.WebBackend.Data
             return _convertDT2List.ConvertDataTable<POST>(data.Tables[0]).First();
         }
 
-        public POST Insert(POST entNew)
+        public bool Insert(POST entNew)
         {
-            throw new NotImplementedException();
+            try
+            {
+                var data = _connDb.GetData(string.Format(@"EXEC [dbo].[wsp_create_post] @TITLE = '{0}',
+                                                                                        @DETAILS = '{1}',
+                                                                                        @PHOTOS = '{2}',
+                                                                                        @PRICE = {3},
+                                                                                        @ADDRESS = '{4}'
+                                                                                        @OWNER = '{5}'"
+                                            , entNew.TITLE, entNew.DETAILS, entNew.PHOTOS, entNew.PRICE, entNew.ADDRESS, entNew.OWNER));
+                return true;
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
+
         }
 
         public bool IsExisting(string key)

@@ -77,6 +77,24 @@ namespace Accomedy.WebBackend.Api.Controllers
             return resp;
         }
 
+        [HttpPost]
+        [Route("create-post")]
+        public IHttpActionResult Post2Create([FromBody] PostModel postModel)
+        {
+            IHttpActionResult resp;
+            if (postModel == null)
+            {
+                resp = BadRequest();
+            }
+            else
+            {
+                var results = _postMgr.Create(postModel);
+               
+                resp = Ok(results);
+            }
+
+            return resp;
+        }
 
         private IPostManager postMgr;
     }

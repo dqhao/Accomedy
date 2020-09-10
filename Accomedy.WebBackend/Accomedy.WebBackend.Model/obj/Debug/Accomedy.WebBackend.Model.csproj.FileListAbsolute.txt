@@ -9,3 +9,4 @@ E:\source\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.Model\bin\Debug\Accom
 E:\source\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.Model\obj\Debug\Accomedy.WebBackend.Model.csproj.CoreCompileInputs.cache
 E:\source\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.Model\obj\Debug\Accomedy.WebBackend.Model.dll
 E:\source\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.Model\obj\Debug\Accomedy.WebBackend.Model.pdb
+E:\source\Accomedy\Accomedy.WebBackend\Accomedy.WebBackend.Model\obj\Debug\Accomedy.WebBackend.Model.csprojAssemblyReference.cache

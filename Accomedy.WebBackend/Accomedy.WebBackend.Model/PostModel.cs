@@ -15,5 +15,6 @@ namespace Accomedy.WebBackend.Model
         public decimal price { get; set; }
         public string address { get; set; }
         public string status { get; set; }
+        public string owner { get; set; }
     }
 }

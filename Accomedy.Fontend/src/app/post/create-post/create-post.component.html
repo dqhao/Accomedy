@@ -1,0 +1,59 @@
+<div class="page-wrapper bg-gra-03 p-t-45 p-b-50">
+    <div class="wrapper wrapper--w790">
+        <div class="">
+            <h2 class="title">Create post</h2>
+        </div>
+        <div class="card card-5">
+            <div class="card-body">
+                <form method="POST">
+                    <div class="form-row">
+                        <div class="name">Title</div>
+                        <div class="value">
+                            <div class="input-group">
+                                <input [(ngModel)]="post.title" class="input--style-5" type="text" name="title">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="name">Address</div>
+                        <div class="value">
+                            <div class="input-group">
+                                <input [(ngModel)]="post.address" class="input--style-5" type="text" name="address">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="name">Price</div>
+                        <div class="value">
+                            <div class="input-group">
+                                <input [(ngModel)]="post.price" class="input--style-5" type="number" name="price">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="name">Photos</div>
+                        <div class="value">
+                            <div class="input-group">
+                                {{url}}
+                                <input [(ngModel)]="post.photos" type="file" name="photos"
+                                    (change)="processFile($event)">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="name">Description</div>
+                        <div class="value">
+                            <div class="input-group">
+                                <input [(ngModel)]="post.description" class="input--style-5" type="text"
+                                    name="description">
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <button class="btn btn-primary btn--radius-2" type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

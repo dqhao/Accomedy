@@ -9,6 +9,7 @@ using Accomedy.WebBackend.Entities;
 using Accomedy.WebBackend.Model;
 using Accomedy.WebBackend.Service.FlexibleSearch;
 using Accomedy.WebBackend.Share;
+using ExpressMapper;
 using ExpressMapper.Extensions;
 
 namespace Accomedy.WebBackend.Business
@@ -24,9 +25,10 @@ namespace Accomedy.WebBackend.Business
             _flexSearchSvc = flexSearchSvc;
         }
 
-        public PostModel Create(PostModel model)
+        public bool Create(PostModel model)
         {
-            throw new NotImplementedException();
+            var ent = Mapper.Map<PostModel, POST>(model);
+            return _postRepo.Insert(ent);
         }
 
         public bool Delete(string id)
